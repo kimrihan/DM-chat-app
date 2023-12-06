@@ -1,0 +1,26 @@
+.message.left {
+  margin-right: 50% !important;
+  border-top-left-radius: 0 !important;
+}
+.message.right {
+  margin-left: 50% !important;
+  border-top-right-radius: 0 !important;
+}
+
+.msg-time {
+  display: block;
+  opacity: 0.7;
+  font-size: 0.7rem;
+}
+.messages {
+  height: calc(80vh + 11px);
+  overflow-y: auto;
+}
+
+.sidebar {
+  height: calc((80vh + 112px));
+}
+
+.table tr td {
+  cursor: pointer;
+}
